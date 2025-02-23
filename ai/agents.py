@@ -6,7 +6,7 @@ import json
 class InsuranceAgent:
     def __init__(self):
         self.client = Groq()
-        self.model = "qwen-2.5-32b"
+        self.model = "llama-3.3-70b-versatile"
         
     def _process_user_data(self, data: pd.DataFrame) -> Dict:
         """
